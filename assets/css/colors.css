@@ -1,0 +1,82 @@
+/************* LIGHT THEME ***************/
+:root {
+    --background-tertiary: #e3e5e8;
+    --background-primary: #f2f3f5;
+    --background-secondary: #fff;
+    --background-secondary-alt: #dbdddf;
+    --sbw-background-side: #f2f3f5;
+    --sbw-background-main: #fff;
+    --interactive-normal: #4f5660;
+    --interactive-hover: #2e3338;
+    --interactive-active: #060607;
+    --background-modifier-hover: rgba(116,127,141,0.08);
+    --background-modifier-active: rgba(116,127,141,0.16);
+    --background-modifier-selected: rgba(116,127,141,0.24);
+    --background-modifier-accent: rgba(0, 0, 0, 0.05);
+    --border-color-1: rgba(116,127,141,0.12);
+    --background-floating: #fff;
+    --header-primary: #060607;
+    --header-secondary: #4f5660;
+    --text-link: #00b0f4;
+    --text-normal: #2e3338;
+    --text-inverse: #eef3f8;
+    --text-positive: #4fdc7b;
+    --text-warning: #faa81a;
+    --text-negative: #ee4145;
+    --text-disabled: #747f8d;
+    --background-accent: #747f8d;
+    --background-accent-alt: rgba(255, 255, 255, 0.35);
+    --scrollbar-auto-thumb: #ccc;
+    --scrollbar-auto-track: #f2f2f2;
+    --scrollbar-thin-thumb: rgba(79, 84, 92, 0.3);
+    --scrollbar-thin-track: transparent;
+    --brand-color: #5865f2;
+    --brand-color-1: #4752c4;
+    --brand-color-2: #3639b3;
+    --color-shadow: rgba(0,0,0,0.25098);
+    --button-red-background: #ee4145;
+    --button-red-background-hover: #aa2e30;
+    --backdrop-color: #010101af;
+    --header-shadow: rgba(0, 0, 0, 0.24);
+}
+
+/************* DARK THEME ***************/
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-tertiary: #1d1d1d;
+        --background-primary: #0a0a0a;
+        --background-secondary: #242424;
+        --background-secondary-alt: #181818;
+        --sbw-background-side: #181818;
+        --sbw-background-main: #121212;
+        --interactive-normal: #b9bbbe;
+        --interactive-hover: #dcddde;
+        --interactive-active: #fff;
+        --background-modifier-hover: rgba(255,255,255,0.16);
+        --background-modifier-active: rgba(255,255,255,0.24);
+        --background-modifier-selected: rgba(255,255,255,0.32);
+        --background-modifier-accent: rgba(255,255,255, 0.1);
+        --border-color-1: rgba(79,84,92,0.25);
+        --background-floating: #1d1d1d;
+        --header-primary: #fff;
+        --header-secondary: #b9bbbe;
+        --text-link: #00b0f4;
+        --text-normal: #dcddde;
+        --text-inverse: #2e3338;
+        --text-positive: #4fdc7b;
+        --text-warning: #faa81a;
+        --text-negative: #ee4145;
+        --text-disabled: #72767d;
+        --background-accent: #4f545c;
+        --background-accent-alt: rgba(255, 255, 255, 0.35);
+        --scrollbar-auto-thumb: #202225;
+        --scrollbar-auto-track: transparent;
+        --scrollbar-thin-thumb: #232323;
+        --scrollbar-thin-track: transparent;
+        --brand-color: #5865f2;
+        --brand-color-1: #4752c4;
+        --brand-color-2: #3639b3;
+        --color-shadow: rgba(0, 0, 0, 0.24);
+        --backdrop-color: #010101cf;
+    }
+}
