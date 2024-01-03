@@ -1140,7 +1140,7 @@ button.backButton {
 .client > .playlist > .header h1 {
   font-size: 22px;
 }
-.client > .playlist > .header *:last-child {
+.client > .playlist > .header button {
   margin-top: 1rem;
 }
 
