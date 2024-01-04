@@ -1119,6 +1119,7 @@ button.backButton {
   font-family: "Roboto", "Arial", sans-serif;
   font-size: 1rem;
   font-weight: 500;
+  color: #aaa;
 }
 .client > .playlist > .poster img {
   width: 100%;
