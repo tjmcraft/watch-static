@@ -486,6 +486,10 @@ pre {
 .client > .video > .metadata .meta h3 {
   color: var(--header-primary);
   user-select: text;
+  word-wrap: break-word;
+  white-space: break-spaces;
+  text-wrap: wrap;
+  word-break: break-word;
 }
 
 .client > .video .video-controls {
