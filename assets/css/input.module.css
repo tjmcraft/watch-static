@@ -302,3 +302,28 @@ input:checked + .slider {
 input:checked + .slider:before {
   transform: translateX(22px);
 }
+
+.labelRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.labelRow .control {
+  flex: 0 0 auto;
+}
+
+.labelRow .title {
+  flex: 1;
+  display: block;
+  overflow: hidden;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 3px; /* fix line height */
+  padding-right: 8px; /* fix toggler sticking */
+  cursor: pointer;
+  color: var(--header-primary);
+}
