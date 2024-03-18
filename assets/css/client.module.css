@@ -17,6 +17,7 @@
   top: 0;
   max-width: 100%;
 }
+
 .client-content.wide.playlist {
   position: sticky !important;
   top: 0;
@@ -74,7 +75,7 @@
   color: #eee;
 }
 
-.clientWrapper .client.upload .dragover-handler > * {
+.clientWrapper .client.upload .dragover-handler>* {
   color: inherit;
 }
 
@@ -86,7 +87,7 @@
   margin-top: 2rem !important;
 }
 
-.clientWrapper.mini .client > .footer-fix {
+.clientWrapper.mini .client>.footer-fix {
   display: none;
 }
 
@@ -96,7 +97,7 @@
   max-width: 50vw;
 }
 
-.client-content.wide + .client-content.sidebar {
+.client-content.wide+.client-content.sidebar {
   max-width: 35vw;
 }
 
@@ -144,7 +145,7 @@
   padding: 0;
 }
 
-.app-container > .client {
+.app-container>.client {
   max-width: 1100px;
 }
 
@@ -161,11 +162,11 @@
   margin: 16px 0 !important;
 }
 
-.client > .content {
+.client>.content {
   position: relative;
 }
 
-.client > .footer {
+.client>.footer {
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -176,13 +177,13 @@
   gap: 1rem;
 }
 
-.client > .footer button {
+.client>.footer button {
   width: 100%;
   height: 42px;
   flex: 1;
 }
 
-.client > .footer button:nth-child(3) {
+.client>.footer button:nth-child(3) {
   flex: 1 0 auto;
 }
 
@@ -225,8 +226,8 @@
   display: block;
 }
 
-.client.upload progress + span,
-.client.edit progress + span {
+.client.upload progress+span,
+.client.edit progress+span {
   margin-top: 1rem;
   height: 1rem;
   line-height: 1;
@@ -257,11 +258,11 @@ pre {
   margin-left: auto;
 }
 
-.client-head > :not(.headerIcon) {
+.client-head> :not(.headerIcon) {
   flex: 1 1 auto;
 }
 
-.client-head > .headerIcon {
+.client-head>.headerIcon {
   flex: 1 1 75%;
 }
 
@@ -272,7 +273,7 @@ pre {
   color: var(--header-primary);
 }
 
-.client-head h1 > span {
+.client-head h1>span {
   font-family: var(--font-primary);
   font-size: 1.4rem;
   font-weight: 400;
@@ -291,13 +292,13 @@ pre {
   font-weight: 700;
 }
 
-.client > h1 {
+.client>h1 {
   font-size: 2em;
   font-weight: 700;
   line-height: normal;
 }
 
-.client > h1 {
+.client>h1 {
   margin: 1rem 8px 0;
 }
 
@@ -329,12 +330,12 @@ pre {
   border-radius: 8px;
 }
 
-.client > .main.nowrap {
+.client>.main.nowrap {
   overflow: auto;
   flex-wrap: nowrap;
 }
 
-.client > .main {
+.client>.main {
   position: relative;
   display: flex;
   flex-direction: row;
@@ -363,7 +364,7 @@ pre {
   width: 0 !important;
 }
 
-.client > .chips {
+.client>.chips {
   position: relative;
   display: flex;
   flex-direction: row;
@@ -372,7 +373,7 @@ pre {
   margin: 1rem 8px 0;
 }
 
-.client > .chips > .chip {
+.client>.chips>.chip {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -388,27 +389,27 @@ pre {
   font-weight: 500;
 }
 
-.client > .chips > .chip + .chip {
+.client>.chips>.chip+.chip {
   margin-left: 12px;
 }
 
-.client > .chips > .chip:hover {
+.client>.chips>.chip:hover {
   background-color: var(--background-modifier-hover);
   cursor: pointer;
 }
 
-.client > .chips > .chip:active {
+.client>.chips>.chip:active {
   background-color: var(--background-modifier-active);
   cursor: pointer;
 }
 
-.client > .chips > .chip.selected {
+.client>.chips>.chip.selected {
   background-color: var(--interactive-active);
   color: var(--text-inverse);
   cursor: pointer;
 }
 
-.client > .video {
+.client>.video {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -416,11 +417,11 @@ pre {
   margin: 1rem 8px 0;
 }
 
-.client > .video > * {
+.client>.video>* {
   margin-bottom: 12px;
 }
 
-.client > .video > .header {
+.client>.video>.header {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -428,20 +429,20 @@ pre {
   user-select: text;
 }
 
-.client > .video > .header > * {
+.client>.video>.header>* {
   display: inline-block;
 }
 
-.client > .video > .header h1 {
+.client>.video>.header h1 {
   font-size: 20px;
   line-height: 1;
 }
 
-.client > .video > .header .backButton {
+.client>.video>.header .backButton {
   display: none;
 }
 
-.client > .video > .player {
+.client>.video>.player {
   position: relative;
   width: 100%;
   z-index: 10;
@@ -451,24 +452,24 @@ pre {
   overflow: hidden;
 }
 
-.client > .video > .player video {
+.client>.video>.player video {
   width: 100%;
   max-height: 70vh;
   background: transparent;
 }
 
-.client > .video > .metadata > .top-row {
+.client>.video>.metadata>.top-row {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
 }
 
-.client > .video > .metadata > .bottom-row {
+.client>.video>.metadata>.bottom-row {
   /* margin-top: 12px; */
   width: 100%;
 }
 
-.client > .video > .metadata {
+.client>.video>.metadata {
   position: relative;
   width: 100%;
   display: flex;
@@ -477,13 +478,13 @@ pre {
   gap: 12px;
 }
 
-.client > .video > .metadata .meta {
+.client>.video>.metadata .meta {
   padding: 8px 10px;
   border-radius: 8px;
   background-color: var(--background-modifier-accent);
 }
 
-.client > .video > .metadata .meta h3 {
+.client>.video>.metadata .meta h3 {
   color: var(--header-primary);
   user-select: text;
   word-wrap: break-word;
@@ -492,21 +493,21 @@ pre {
   word-break: break-word;
 }
 
-.client > .video .video-controls {
+.client>.video .video-controls {
   display: none;
 }
 
-.client > .video.horizontal {
+.client>.video.horizontal {
   position: relative;
   max-height: 100vh;
 }
 
-.client > .video.horizontal .video-bottom.active {
+.client>.video.horizontal .video-bottom.active {
   opacity: 1;
   pointer-events: auto;
 }
 
-.client > .video.horizontal .video-bottom {
+.client>.video.horizontal .video-bottom {
   --header-primary: #fff;
   --header-secondary: #aaa;
   --background-modifier-accent: rgba(255, 255, 255, 0.15);
@@ -523,7 +524,7 @@ pre {
   transition: opacity 0.3s;
 }
 
-.client > .video.horizontal .video-bottom > .video-progress {
+.client>.video.horizontal .video-bottom>.video-progress {
   position: relative;
   width: 100%;
   height: 100%;
@@ -531,7 +532,7 @@ pre {
   cursor: pointer;
 }
 
-.client > .video.horizontal .video-bottom > .video-progress > .padding {
+.client>.video.horizontal .video-bottom>.video-progress>.padding {
   position: absolute;
   width: 100%;
   height: 16px;
@@ -539,7 +540,7 @@ pre {
   z-index: 28;
 }
 
-.client > .video.horizontal .video-bottom > .video-progress > .progress-list {
+.client>.video.horizontal .video-bottom>.video-progress>.progress-list {
   position: relative;
   width: 100%;
   height: 6px;
@@ -547,7 +548,7 @@ pre {
   z-index: 39;
 }
 
-.client > .video.horizontal .video-bottom > .video-progress > .progress-list {
+.client>.video.horizontal .video-bottom>.video-progress>.progress-list {
   -webkit-transform: scaleY(0.6);
   -moz-transform: scaleY(0.6);
   -ms-transform: scaleY(0.6);
@@ -558,16 +559,8 @@ pre {
     -webkit-transform 0.1s cubic-bezier(0.4, 0, 1, 1);
 }
 
-.client
-  > .video.horizontal
-  .video-bottom
-  > .video-progress:hover
-  > .progress-list,
-.client
-  > .video.horizontal
-  .video-bottom
-  > .video-progress.active
-  > .progress-list {
+.client>.video.horizontal .video-bottom>.video-progress:hover>.progress-list,
+.client>.video.horizontal .video-bottom>.video-progress.active>.progress-list {
   -webkit-transform: none;
   -moz-transform: none;
   -ms-transform: none;
@@ -575,12 +568,7 @@ pre {
   transform: none;
 }
 
-.client
-  > .video.horizontal
-  .video-bottom
-  > .video-progress
-  > .progress-list
-  .played {
+.client>.video.horizontal .video-bottom>.video-progress>.progress-list .played {
   height: 100%;
   left: 0;
   top: 0;
@@ -594,12 +582,7 @@ pre {
   background-size: 200% 1px;
 }
 
-.client
-  > .video.horizontal
-  .video-bottom
-  > .video-progress
-  > .progress-list
-  .loaded {
+.client>.video.horizontal .video-bottom>.video-progress>.progress-list .loaded {
   height: 100%;
   left: 0;
   top: 0;
@@ -613,18 +596,8 @@ pre {
   background-size: 200% 1px;
 }
 
-.client
-  > .video.horizontal
-  .video-bottom
-  > .video-progress:hover
-  > .progress-list
-  .played::after,
-.client
-  > .video.horizontal
-  .video-bottom
-  > .video-progress.active
-  > .progress-list
-  .played::after {
+.client>.video.horizontal .video-bottom>.video-progress:hover>.progress-list .played::after,
+.client>.video.horizontal .video-bottom>.video-progress.active>.progress-list .played::after {
   content: "";
   position: absolute;
   width: 0.75rem;
@@ -637,7 +610,7 @@ pre {
   transition: transform 0.2s ease;
 }
 
-.client > .video.horizontal .video-controls {
+.client>.video.horizontal .video-controls {
   display: flex;
   flex-direction: row;
   height: 42px;
@@ -648,11 +621,11 @@ pre {
   color: #eee;
 }
 
-.client > .video.horizontal .video-controls .spacer {
+.client>.video.horizontal .video-controls .spacer {
   flex-grow: 1;
 }
 
-.client > .video.horizontal .video-controls button {
+.client>.video.horizontal .video-controls button {
   padding: 0 2px;
   display: inline-block;
   overflow: hidden;
@@ -665,25 +638,21 @@ pre {
   min-width: 42px;
 }
 
-.client > .video.horizontal .video-controls button:hover {
+.client>.video.horizontal .video-controls button:hover {
   color: #fff;
 }
 
-.client > .video.horizontal .video-controls button > i {
+.client>.video.horizontal .video-controls button>i {
   font-size: 1.6rem;
   line-height: 1;
 }
 
-.client > .video.horizontal .video-controls > .volume-slider .slider-main {
+.client>.video.horizontal .video-controls>.volume-slider .slider-main {
   position: relative;
   z-index: 2;
 }
 
-.client
-  > .video.horizontal
-  .video-controls
-  > .volume-slider
-  .slider-main:before {
+.client>.video.horizontal .video-controls>.volume-slider .slider-main:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -698,7 +667,7 @@ pre {
   z-index: -1;
 }
 
-.client > .video.horizontal .video-controls > .volume-slider {
+.client>.video.horizontal .video-controls>.volume-slider {
   margin-bottom: 0;
   margin-left: -0.75rem;
   padding: 0.5rem 0.5rem 0.5rem 0.5rem;
@@ -708,7 +677,7 @@ pre {
   transition: width 0.2s ease-in-out;
 }
 
-.client > .video.horizontal .video-controls > .volume-slider .slider-fill {
+.client>.video.horizontal .video-controls>.volume-slider .slider-fill {
   position: absolute;
   width: 0;
   left: 0;
@@ -719,38 +688,24 @@ pre {
   pointer-events: none;
 }
 
-.client
-  > .video.horizontal
-  .video-controls
-  > .volume-slider
-  input[type="range"] {
+.client>.video.horizontal .video-controls>.volume-slider input[type="range"] {
   margin: 0;
   opacity: 0;
   transition: opacity 0.15s ease-in-out;
 }
 
-.client
-  > .video.horizontal
-  .video-controls
-  > .volume:hover
-  + .volume-slider
-  input[type="range"],
-.client
-  > .video.horizontal
-  .video-controls
-  > .volume
-  + .volume-slider:hover
-  input[type="range"] {
+.client>.video.horizontal .video-controls>.volume:hover+.volume-slider input[type="range"],
+.client>.video.horizontal .video-controls>.volume+.volume-slider:hover input[type="range"] {
   opacity: 1;
 }
 
-.client > .video.horizontal .video-controls > .volume:hover + .volume-slider,
-.client > .video.horizontal .video-controls > .volume + .volume-slider:hover {
+.client>.video.horizontal .video-controls>.volume:hover+.volume-slider,
+.client>.video.horizontal .video-controls>.volume+.volume-slider:hover {
   overflow: hidden;
   width: var(--volume-slider-width);
 }
 
-.client > .video .video-box.loading::before {
+.client>.video .video-box.loading::before {
   display: block;
   content: "";
   position: absolute;
@@ -765,16 +720,14 @@ pre {
   animation-iteration-count: infinite;
   animation-name: placeHolderShimmer;
   animation-timing-function: linear;
-  background: linear-gradient(
-    to right,
-    var(--background-secondary) 25%,
-    var(--background-tertiary) 50%,
-    var(--background-secondary) 75%
-  );
+  background: linear-gradient(to right,
+      var(--background-secondary) 25%,
+      var(--background-tertiary) 50%,
+      var(--background-secondary) 75%);
   background-size: 200% 1px;
 }
 
-.client > .video.horizontal .video-box {
+.client>.video.horizontal .video-box {
   padding-top: calc(9 / 16 * 100%);
   height: 100%;
 }
@@ -789,7 +742,7 @@ pre {
   }
 }
 
-.client > .video.horizontal .video-box .spinner {
+.client>.video.horizontal .video-box .spinner {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -801,11 +754,11 @@ pre {
   transform: translate(-50%, -50%);
 }
 
-.client > .video.horizontal .video-box.waiting .spinner {
+.client>.video.horizontal .video-box.waiting .spinner {
   opacity: 1;
 }
 
-.client > .video.horizontal .video-box.waiting .spinner::after {
+.client>.video.horizontal .video-box.waiting .spinner::after {
   content: "";
   position: absolute;
   background-repeat: no-repeat;
@@ -820,7 +773,7 @@ pre {
   opacity: 0.85;
 }
 
-.client > .video .video-box .banner {
+.client>.video .video-box .banner {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -833,11 +786,11 @@ pre {
   opacity: 0;
 }
 
-.client > .video .video-box .banner.show {
+.client>.video .video-box .banner.show {
   opacity: 1;
 }
 
-.client > .video .video-box .banner-muted {
+.client>.video .video-box .banner-muted {
   position: absolute;
   top: 0;
   left: 0;
@@ -854,21 +807,21 @@ pre {
   pointer-events: none;
 }
 
-.client > .video.vertical .video-box .banner-muted {
+.client>.video.vertical .video-box .banner-muted {
   top: 50px;
 }
 
-.client > .video .video-box .banner-muted.show {
+.client>.video .video-box .banner-muted.show {
   opacity: 1;
   pointer-events: all;
 }
 
-.client > .video .video-box .banner-muted > i {
+.client>.video .video-box .banner-muted>i {
   font-size: 1.5rem;
   vertical-align: bottom;
 }
 
-.client > .video.horizontal video {
+.client>.video.horizontal video {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -879,11 +832,11 @@ pre {
   max-height: 100%;
 }
 
-.client > .video .vertical-controls {
+.client>.video .vertical-controls {
   display: none;
 }
 
-.client > .video.vertical .vertical-controls {
+.client>.video.vertical .vertical-controls {
   display: flex;
   margin: 0;
   position: absolute;
@@ -897,16 +850,16 @@ pre {
   z-index: 10;
 }
 
-.client > .video.vertical .vertical-controls > .play {
+.client>.video.vertical .vertical-controls>.play {
   margin: auto;
   opacity: 0;
 }
 
-.client > .video.vertical .vertical-controls > .play.show {
+.client>.video.vertical .vertical-controls>.play.show {
   opacity: 0.8;
 }
 
-.client > .video.vertical {
+.client>.video.vertical {
   border-radius: 8px;
   overflow: hidden;
   /* margin: 0; */
@@ -918,13 +871,13 @@ pre {
   max-width: 100%;
 }
 
-.client > .video.vertical > .player {
+.client>.video.vertical>.player {
   margin: 0;
   border-radius: 0;
   border: none;
 }
 
-.client > .video.vertical > .header {
+.client>.video.vertical>.header {
   /* display: none; */
   position: absolute;
   color: #fff;
@@ -936,7 +889,7 @@ pre {
   background: linear-gradient(180deg, var(--backdrop-color), transparent);
 }
 
-.client > .video.vertical > .header > * {
+.client>.video.vertical>.header>* {
   color: inherit;
   overflow: hidden;
   display: -webkit-box;
@@ -948,7 +901,7 @@ pre {
   word-break: break-word;
 }
 
-.client > .video.vertical > .header > h1 {
+.client>.video.vertical>.header>h1 {
   margin-inline-start: 12px;
 }
 
@@ -965,7 +918,7 @@ button.backButton {
   font-size: 1.2rem;
 }
 
-.client > .video.vertical > .metadata::after {
+.client>.video.vertical>.metadata::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -978,7 +931,7 @@ button.backButton {
   background-size: 200% 1px;
 }
 
-.client > .video.vertical > .metadata {
+.client>.video.vertical>.metadata {
   --header-primary: #fff;
   --header-secondary: #aaa;
   --background-modifier-accent: rgba(255, 255, 255, 0.15);
@@ -992,12 +945,12 @@ button.backButton {
   z-index: 20;
 }
 
-.client > .video.vertical > .metadata .meta {
+.client>.video.vertical>.metadata .meta {
   padding: 0;
   background-color: transparent;
 }
 
-.client > .video.vertical .video-box {
+.client>.video.vertical .video-box {
   min-height: 100%;
   height: 100%;
   display: flex;
@@ -1006,7 +959,7 @@ button.backButton {
   background-color: var(--background-secondary-alt);
 }
 
-.client > .video.vertical video {
+.client>.video.vertical video {
   max-height: inherit;
   margin: 0;
   object-fit: cover;
@@ -1016,11 +969,11 @@ button.backButton {
   height: 100%;
 }
 
-.client > .video.vertical > .metadata .actions button > span {
+.client>.video.vertical>.metadata .actions button>span {
   display: none;
 }
 
-.client > .video > .metadata > .top-row .owner {
+.client>.video>.metadata>.top-row .owner {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -1032,20 +985,20 @@ button.backButton {
   font-weight: 500;
 }
 
-.client > .video > .metadata > .top-row .owner img {
+.client>.video>.metadata>.top-row .owner img {
   height: 42px;
 }
 
-.client > .video > .metadata > .top-row .owner h1 {
+.client>.video>.metadata>.top-row .owner h1 {
   font-weight: 600;
 }
 
-.client > .video > .metadata > .top-row .owner h3 {
+.client>.video>.metadata>.top-row .owner h3 {
   font-size: 14px;
   font-weight: 400;
 }
 
-.client > .video > .metadata > .top-row .actions {
+.client>.video>.metadata>.top-row .actions {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -1055,26 +1008,26 @@ button.backButton {
   margin-left: auto;
 }
 
-.client > .video > .metadata > .top-row .actions button {
+.client>.video>.metadata>.top-row .actions button {
   min-width: 0;
   padding: 6px 10px;
 }
 
-.sidebar .client > .related {
+.sidebar .client>.related {
   margin: 1rem 8px 0;
 }
 
-.sidebar .client > .related > h1 {
+.sidebar .client>.related>h1 {
   font-size: 22px;
   line-height: 1;
   padding: 0 8px;
 }
 
-.sidebar .client > .related > * {
+.sidebar .client>.related>* {
   margin-bottom: 12px;
 }
 
-.client > .playlist {
+.client>.playlist {
   margin: 1rem 8px 0;
   border-radius: 8px;
   background-color: var(--background-primary);
@@ -1084,7 +1037,8 @@ button.backButton {
   display: flex;
   flex-direction: column;
 }
-.client > .playlist.seamless {
+
+.client>.playlist.seamless {
   background-color: transparent;
   border-radius: 0;
   overflow: unset;
@@ -1093,16 +1047,18 @@ button.backButton {
   border: unset;
 }
 
-.client > .playlist > .poster {
+.client>.playlist>.poster {
   width: 100%;
   display: flex;
   cursor: pointer;
   position: relative;
 }
-.client > .playlist > .poster:hover .overlay {
+
+.client>.playlist>.poster:hover .overlay {
   opacity: 1;
 }
-.client > .playlist > .poster .overlay {
+
+.client>.playlist>.poster .overlay {
   opacity: 0;
   cursor: pointer;
   background-color: var(--backdrop-color);
@@ -1125,31 +1081,33 @@ button.backButton {
   font-weight: 500;
   color: #aaa;
 }
-.client > .playlist > .poster img {
+
+.client>.playlist>.poster img {
   width: 100%;
   max-height: 30vh;
   object-fit: cover;
 }
 
-.clientWrapper .client > .playlist > .header {
+.clientWrapper .client>.playlist>.header {
   position: sticky;
   top: 0;
 }
 
-.client > .playlist > .header {
+.client>.playlist>.header {
   background-color: var(--background-floating);
   padding: 1rem;
   z-index: 2;
 }
 
-.client > .playlist > .header h1 {
+.client>.playlist>.header h1 {
   font-size: 22px;
 }
-.client > .playlist > .header button {
+
+.client>.playlist>.header button {
   margin-top: 1rem;
 }
 
-.client > .playlist > .header p {
+.client>.playlist>.header p {
   user-select: text;
   color: var(--text-normal);
   margin-top: 1rem;
@@ -1157,18 +1115,18 @@ button.backButton {
   font-size: 14px;
 }
 
-.client > .playlist > .items h1 {
+.client>.playlist>.items h1 {
   font-size: 22px;
   padding: 8px;
   padding-top: 0;
 }
 
-.client > .playlist > .items {
+.client>.playlist>.items {
   overflow-y: auto;
   padding: 8px;
 }
 
-.client > .playlist > .items .video-item > .video-thumb {
+.client>.playlist>.items .video-item>.video-thumb {
   min-width: 8rem;
   max-width: 8rem;
 }
@@ -1211,7 +1169,7 @@ button.backButton {
   flex-direction: row;
 }
 
-.video-item.compact > .video-index {
+.video-item.compact>.video-index {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -1222,7 +1180,7 @@ button.backButton {
   line-height: 1.5em;
 }
 
-.video-item > .video-thumb {
+.video-item>.video-thumb {
   position: relative;
   width: 100%;
   height: 100%;
@@ -1230,12 +1188,12 @@ button.backButton {
   border-radius: 8px;
 }
 
-.video-item.compact > .video-thumb {
+.video-item.compact>.video-thumb {
   min-width: 10rem;
   max-width: 10rem;
 }
 
-.video-item > .video-thumb::before {
+.video-item>.video-thumb::before {
   display: block;
   content: "";
   width: 100%;
@@ -1247,20 +1205,18 @@ button.backButton {
   animation-iteration-count: infinite;
   animation-name: placeHolderShimmer;
   animation-timing-function: linear;
-  background: linear-gradient(
-    to right,
-    var(--background-secondary) 25%,
-    #aaaaaa50 50%,
-    var(--background-secondary) 75%
-  );
+  background: linear-gradient(to right,
+      var(--background-secondary) 25%,
+      #aaaaaa50 50%,
+      var(--background-secondary) 75%);
   background-size: 200% 1px;
 }
 
-.video-item.vertical > .video-thumb::before {
+.video-item.vertical>.video-thumb::before {
   padding-top: 178.25%;
 }
 
-.video-item > .video-thumb > .thumb {
+.video-item>.video-thumb>.thumb {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -1274,7 +1230,7 @@ button.backButton {
   margin: 0;
 }
 
-.video-item > .video-thumb > span.time {
+.video-item>.video-thumb>span.time {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -1290,19 +1246,19 @@ button.backButton {
   letter-spacing: 0.5px;
 }
 
-.video-item > .video-details {
+.video-item>.video-details {
   display: flex;
   flex-direction: row;
   padding: 0 4px;
   gap: 12px;
 }
 
-.video-item.vertical > .video-details > .avatar-link,
-.video-item.compact > .video-details > .avatar-link {
+.video-item.vertical>.video-details>.avatar-link,
+.video-item.compact>.video-details>.avatar-link {
   display: none;
 }
 
-.video-item > .video-details > .avatar-link img {
+.video-item>.video-details>.avatar-link img {
   height: 100%;
   width: auto;
   object-fit: contain;
@@ -1313,19 +1269,19 @@ button.backButton {
   border-radius: 0;
 }
 
-.video-item > .video-details > .avatar-link {
+.video-item>.video-details>.avatar-link {
   height: 36px;
   display: inline-block;
   flex-shrink: 0;
 }
 
-.video-item > .video-details > .meta {
+.video-item>.video-details>.meta {
   color: var(--header-secondary);
   width: 100%;
   text-align: left;
 }
 
-.video-item > .video-details h3 {
+.video-item>.video-details h3 {
   font-size: 16px;
   font-weight: 700;
   margin-bottom: 4px;
@@ -1349,7 +1305,7 @@ button.backButton {
   /* margin-bottom: 16px; */
 }
 
-.headerIcon > .img-wrapper {
+.headerIcon>.img-wrapper {
   width: 100px;
   height: 100px;
   position: relative;
@@ -1357,14 +1313,14 @@ button.backButton {
   /* border-radius: 50%; */
 }
 
-.headerIcon > .img-wrapper > img {
+.headerIcon>.img-wrapper>img {
   width: 100%;
   height: 100%;
   object-fit: contain;
   border-radius: 8px;
 }
 
-.client > :not(.separator) + * {
+.client> :not(.separator)+* {
   margin-top: 16px !important;
 }
 
@@ -1395,7 +1351,7 @@ button.backButton {
     margin-bottom: unset;
   }
 
-  .clientWrapper.mini .client > .footer {
+  .clientWrapper.mini .client>.footer {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -1407,7 +1363,7 @@ button.backButton {
     /* box-shadow: 0 5px 10px 0px var(--backdrop-color); */
   }
 
-  .clientWrapper.mini .client > .footer-fix {
+  .clientWrapper.mini .client>.footer-fix {
     min-height: 100px;
     width: 100%;
     position: relative;
@@ -1425,39 +1381,39 @@ button.backButton {
     padding-right: 1rem;
   }
 
-  .sidebar .client > .related {
+  .sidebar .client>.related {
     margin: 1rem 0;
   }
 
-  .client > .video.horizontal {
+  .client>.video.horizontal {
     margin: 1rem 8px 0;
   }
 
-  .client > .video.horizontal > .player {
+  .client>.video.horizontal>.player {
     width: auto;
   }
 
-  .client > .video.vertical > .header .backButton {
+  .client>.video.vertical>.header .backButton {
     display: flex;
   }
 
-  .client > .video.vertical > .header button + h1 {
+  .client>.video.vertical>.header button+h1 {
     margin-left: 8px;
     font-size: 18px;
   }
 
-  .client > .video.vertical > .header {
+  .client>.video.vertical>.header {
     padding: 10px 8px;
   }
 
-  .client > .video.vertical {
+  .client>.video.vertical {
     border-radius: 0;
     height: calc(100vh - env(safe-area-inset-bottom));
     margin: 0;
     width: 100%;
   }
 
-  .client > .video > .metadata .actions button > span {
+  .client>.video>.metadata .actions button>span {
     display: none;
   }
 
@@ -1471,11 +1427,13 @@ button.backButton {
     min-width: unset;
   }
 }
+
 @media (max-width: 860px) {
   .client-content.video {
-    position: relative;
+    position: relative !important;
     max-width: 100% !important;
   }
+
   .client-content.wide.playlist {
     position: relative !important;
   }
@@ -1493,7 +1451,7 @@ button.backButton {
     /* min-width: unset; */
   }
 
-  .client-content.wide.video + .client-content.sidebar {
+  .client-content.wide.video+.client-content.sidebar {
     max-width: 100%;
     width: 100%;
   }
